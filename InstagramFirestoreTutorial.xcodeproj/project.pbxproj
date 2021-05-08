@@ -14,6 +14,11 @@
 		98C8F6BF264625000038203C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C8F6BE264625000038203C /* Assets.xcassets */; };
 		98C8F6C2264625000038203C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C8F6C0264625000038203C /* LaunchScreen.storyboard */; };
 		98C8F6D3264627890038203C /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6D2264627890038203C /* MainTabController.swift */; };
+		98C8F6D62646299A0038203C /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6D52646299A0038203C /* FeedController.swift */; };
+		98C8F6D9264629A40038203C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6D8264629A40038203C /* SearchController.swift */; };
+		98C8F6DC264629BC0038203C /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6DB264629BC0038203C /* ImageSelectorController.swift */; };
+		98C8F6DF264629C60038203C /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6DE264629C60038203C /* ProfileController.swift */; };
+		98C8F6E2264629DF0038203C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6E1264629DF0038203C /* NotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		98C8F6C1264625000038203C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C8F6C3264625000038203C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98C8F6D2264627890038203C /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		98C8F6D52646299A0038203C /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		98C8F6D8264629A40038203C /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		98C8F6DB264629BC0038203C /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		98C8F6DE264629C60038203C /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		98C8F6E1264629DF0038203C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				98C8F6D2264627890038203C /* MainTabController.swift */,
+				98C8F6D52646299A0038203C /* FeedController.swift */,
+				98C8F6D8264629A40038203C /* SearchController.swift */,
+				98C8F6DB264629BC0038203C /* ImageSelectorController.swift */,
+				98C8F6DE264629C60038203C /* ProfileController.swift */,
+				98C8F6E1264629DF0038203C /* NotificationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,9 +205,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C8F6BA264624FC0038203C /* ViewController.swift in Sources */,
+				98C8F6DC264629BC0038203C /* ImageSelectorController.swift in Sources */,
+				98C8F6D9264629A40038203C /* SearchController.swift in Sources */,
 				98C8F6B6264624FC0038203C /* AppDelegate.swift in Sources */,
+				98C8F6D62646299A0038203C /* FeedController.swift in Sources */,
 				98C8F6D3264627890038203C /* MainTabController.swift in Sources */,
+				98C8F6E2264629DF0038203C /* NotificationController.swift in Sources */,
 				98C8F6B8264624FC0038203C /* SceneDelegate.swift in Sources */,
+				98C8F6DF264629C60038203C /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
