@@ -45,6 +45,12 @@ extension FeedController {
 
 extension FeedController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: 200)
+        
+        let width = view.frame.width
+        var height = width + 8 + 40 + 8
+        height += 50 // Cell's toolBar height
+        height += 60 // time tracker and likes counter height
+        
+        return CGSize(width: width, height: height)
     }
 }
