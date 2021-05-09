@@ -19,6 +19,8 @@
 		98C8F6DF264629C60038203C /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6DE264629C60038203C /* ProfileController.swift */; };
 		98C8F6E2264629DF0038203C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6E1264629DF0038203C /* NotificationController.swift */; };
 		98C8F6E526462D970038203C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C8F6E426462D970038203C /* Assets.xcassets */; };
+		98C8F6EB2648313D0038203C /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6EA2648313D0038203C /* FeedCell.swift */; };
+		98C8F6F12648328F0038203C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6F02648328F0038203C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		98C8F6DE264629C60038203C /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		98C8F6E1264629DF0038203C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		98C8F6E426462D970038203C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		98C8F6EA2648313D0038203C /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		98C8F6F02648328F0038203C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		98C8F6CB2646259C0038203C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				98C8F6F02648328F0038203C /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 		98C8F6CF264625CF0038203C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				98C8F6EA2648313D0038203C /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,11 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C8F6BA264624FC0038203C /* ViewController.swift in Sources */,
+				98C8F6EB2648313D0038203C /* FeedCell.swift in Sources */,
 				98C8F6DC264629BC0038203C /* ImageSelectorController.swift in Sources */,
 				98C8F6D9264629A40038203C /* SearchController.swift in Sources */,
 				98C8F6B6264624FC0038203C /* AppDelegate.swift in Sources */,
 				98C8F6D62646299A0038203C /* FeedController.swift in Sources */,
 				98C8F6D3264627890038203C /* MainTabController.swift in Sources */,
+				98C8F6F12648328F0038203C /* Extensions.swift in Sources */,
 				98C8F6E2264629DF0038203C /* NotificationController.swift in Sources */,
 				98C8F6B8264624FC0038203C /* SceneDelegate.swift in Sources */,
 				98C8F6DF264629C60038203C /* ProfileController.swift in Sources */,
