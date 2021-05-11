@@ -23,6 +23,7 @@
 		98C8F6F12648328F0038203C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6F02648328F0038203C /* Extensions.swift */; };
 		98C8F6F8264AAD5D0038203C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6F7264AAD5D0038203C /* LoginController.swift */; };
 		98C8F6FC264AAD650038203C /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6FB264AAD650038203C /* RegisterController.swift */; };
+		98C8F6FF264ABAED0038203C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6FE264ABAED0038203C /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		98C8F6F02648328F0038203C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 		98C8F6F7264AAD5D0038203C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		98C8F6FB264AAD650038203C /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		98C8F6FE264ABAED0038203C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				98C8F6EA2648313D0038203C /* FeedCell.swift */,
+				98C8F6FE264ABAED0038203C /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C8F6FF264ABAED0038203C /* CustomTextField.swift in Sources */,
 				98C8F6BA264624FC0038203C /* ViewController.swift in Sources */,
 				98C8F6FC264AAD650038203C /* RegisterController.swift in Sources */,
 				98C8F6F8264AAD5D0038203C /* LoginController.swift in Sources */,
