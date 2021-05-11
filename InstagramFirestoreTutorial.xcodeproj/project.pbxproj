@@ -24,6 +24,7 @@
 		98C8F6F8264AAD5D0038203C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6F7264AAD5D0038203C /* LoginController.swift */; };
 		98C8F6FC264AAD650038203C /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6FB264AAD650038203C /* RegisterController.swift */; };
 		98C8F6FF264ABAED0038203C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F6FE264ABAED0038203C /* CustomTextField.swift */; };
+		98C8F707264AD9E30038203C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C8F706264AD9E30038203C /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		98C8F6F7264AAD5D0038203C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		98C8F6FB264AAD650038203C /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		98C8F6FE264ABAED0038203C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		98C8F706264AD9E30038203C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,7 @@
 			children = (
 				98C8F6D0264625D20038203C /* Model */,
 				98C8F6CF264625CF0038203C /* View */,
-				98C8F6CE264625B90038203C /* ViewModel */,
+				98C8F705264AD9C90038203C /* ViewModel */,
 				98C8F6CD264625B90038203C /* Controller */,
 				98C8F6CC264625A20038203C /* API */,
 				98C8F6CB2646259C0038203C /* Utils */,
@@ -124,14 +126,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		98C8F6CE264625B90038203C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ViewModel;
-			path = "New Group2/ViewModel";
-			sourceTree = "<group>";
-		};
 		98C8F6CF264625CF0038203C /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +149,14 @@
 				98C8F6FB264AAD650038203C /* RegisterController.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		98C8F705264AD9C90038203C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98C8F706264AD9E30038203C /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +235,7 @@
 				98C8F6F8264AAD5D0038203C /* LoginController.swift in Sources */,
 				98C8F6EB2648313D0038203C /* FeedCell.swift in Sources */,
 				98C8F6DC264629BC0038203C /* ImageSelectorController.swift in Sources */,
+				98C8F707264AD9E30038203C /* AuthenticationViewModel.swift in Sources */,
 				98C8F6D9264629A40038203C /* SearchController.swift in Sources */,
 				98C8F6B6264624FC0038203C /* AppDelegate.swift in Sources */,
 				98C8F6D62646299A0038203C /* FeedController.swift in Sources */,
